@@ -12,7 +12,10 @@ public class MahasiswaMain06 {
         mhs1.tampilkanInformasi();
 
         Mahasiswa06 mhs2 = new Mahasiswa06("Annisa Nabila", "2141720160", 3.25, "TI 2L");;
-        mhs2.updateIPK(3.30);
+        mhs2.updateIPK(3.30);   
         mhs2.tampilkanInformasi();
+
+        Mahasiswa06 mhszaim = new Mahasiswa06("Hafiz Ahmad Zaim Kuntoro", "244107060103", 3.89, "SIB 1A");
+        mhszaim.tampilkanInformasi();
     }
 }
